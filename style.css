@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 4px;
+    background-image: url(https://source.unsplash.com/1366x768?weather);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.weather{
+    width: 200px;
+    height: 160px;
+    
+}
+
+input{
+    height: 30px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+}

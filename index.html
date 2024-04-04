@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <div class="weather">
+            <p id="day"></p>
+            <h2 id="condition"></h2>
+            <img id="icon" alt="">
+            <p id="temp"></p>
+            <input onchange="fetchWeather()" type="text" id="cityName" placeholder="Search City">
+        </div>
+        <div class="weather">
+            <p id="day2"></p>
+            <h2 id="condition2"></h2>
+            <img src="" alt="" id="icon2">
+            <p id="temp2"></p>
+            
+        </div>
+        <div class="weather">
+            <p id="day3"></p>
+            <h2 id="condition3"></h2>
+            <img src="" alt="" id="icon3">
+            <p id="temp3"></p>
+            
+        </div>
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
